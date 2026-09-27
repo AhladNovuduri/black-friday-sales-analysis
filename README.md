@@ -124,7 +124,7 @@ black-friday-sales-analysis/
 
 ## 👨‍💻 Author
 
-**Satya Novuduri**
+**Ahlad Novuduri**
 
 Data Scientist | Power BI | Python | SQL
 
