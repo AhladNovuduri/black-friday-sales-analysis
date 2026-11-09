@@ -1,131 +1,81 @@
-# 🛍️ Black Friday Sales Analysis Dashboard
+# Black Friday Sales Analysis
 
-## 📌 Project Overview
+Retail analytics project exploring Black Friday purchasing behaviour through a Power BI report and a processed transaction dataset.
 
-This project analyzes Black Friday retail transactions to understand customer purchasing behavior and product performance using **Power BI**. The analysis identifies trends across demographics, product categories, occupations, and city segments to support data-driven business decisions.
+## Project Overview
 
----
+The repository contains a Power BI report and a processed CSV dataset. The existing project documentation describes analysis across customer demographics, product categories, occupation, city segments, and purchase amounts.
 
-## 🎯 Business Objective
+**Scope note:** The current repository tree contains the dashboard and processed dataset, but no Python source scripts or notebooks. This README describes the available deliverables without claiming a reproducible Python preprocessing pipeline.
 
-The primary objectives are to:
+## Repository Contents
 
-- Analyze customer purchasing patterns.
-- Identify high-value customer segments.
-- Compare purchase behavior across demographic groups.
-- Evaluate product category performance.
-- Generate business recommendations for retail strategy.
+| Path | Description |
+|---|---|
+| `reports/Black Friday.pbix` | Power BI report |
+| `data/processed/black_friday_cleaned.csv` | Processed transaction dataset |
+| `requirements.txt` | Existing Python dependency list |
+| `LICENSE` | Copyright notice; not a complete license grant |
 
----
+## Dataset
 
-## 📂 Dataset Information
+The original project README reports approximately 783,000 records and 12 features. These figures have not been independently recomputed in this documentation update. Confirm the dataset source, license, exact row count, schema, and transformation steps before treating them as verified.
 
-| Attribute | Description |
-|-----------|-------------|
-| Dataset | Black Friday Sales |
-| Records | ~783,000 |
-| Features | 12 |
-| Format | CSV |
-| Dashboard | Power BI (.pbix) |
+Document the following to improve transparency:
 
-### Main Columns
+- Original dataset source, license, and attribution.
+- Original and processed row counts.
+- Column definitions and data types.
+- Missing-value and duplicate handling.
+- Treatment of categorical fields and product categories.
+- Whether the Power BI report uses the processed CSV.
 
-- User_ID
-- Product_ID
-- Gender
-- Age
-- Occupation
-- City_Category
-- Stay_In_Current_City_Years
-- Marital_Status
-- Product_Category_1
-- Product_Category_2
-- Product_Category_3
-- Purchase
+## Dashboard
 
----
+Open `reports/Black Friday.pbix` in Power BI Desktop to inspect the report and interact with its filters and visuals.
 
-## 🛠 Tech Stack
+The existing project documentation describes these analysis areas:
+
+- Customer demographics
+- Purchase distribution
+- Product-category analysis
+- City-category analysis
+- Occupation analysis
+- KPI cards and interactive filters
+
+Add screenshots from the actual report after validating the pages and visuals.
+
+## Technology
 
 - Power BI
-- Python
-- Pandas
-- NumPy
-- Git
-- GitHub
+- CSV
+- Python, Pandas, and NumPy are listed in the existing project documentation/dependency file; corresponding source pipeline files are not currently visible in the repository tree.
 
----
-
-## 📁 Repository Structure
-
-```text
-black-friday-sales-analysis/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── reports/
-│   └── Black Friday.pbix
-│
-├── notebooks/
-├── images/
-├── docs/
-└── src/
-```
-
----
-
-## 📊 Dashboard Highlights
-
-- Customer Demographics
-- Purchase Distribution
-- Product Category Analysis
-- City Category Analysis
-- Occupation Analysis
-- KPI Cards
-- Interactive Filters
-
----
-
-## 📈 Expected Business Insights
-
-- Highest spending customer segments
-- Best-performing product categories
-- Spending by age and gender
-- Revenue distribution across cities
-- Purchase behavior trends
-
----
-
-## 🚀 How to Use
+## Getting Started
 
 1. Clone this repository.
-2. Open `reports/Black Friday.pbix`.
-3. Explore the interactive dashboard.
-4. Review the cleaned dataset in `data/processed`.
+2. Open `reports/Black Friday.pbix` in Power BI Desktop.
+3. Explore the report pages and interactive filters.
+4. Review the processed dataset in `data/processed/`.
 
----
+## Reproducibility & Quality Improvements
 
-## 📌 Future Enhancements
+- [ ] Record the original dataset source and license.
+- [ ] Document the exact cleaning and transformation process.
+- [ ] Add source scripts or a notebook only if they reflect the actual workflow.
+- [ ] Add schema and data-quality checks.
+- [ ] Document Power BI version and refresh instructions.
+- [ ] Verify that the report opens and uses the intended dataset.
+- [ ] Confirm redistribution rights for the dataset and report.
+- [ ] Replace the current copyright-only `LICENSE` file with a recognized license only after confirming rights to license all included materials.
 
-- Customer Segmentation
-- Predictive Purchase Modeling
-- Recommendation System
-- Sales Forecasting
-- Executive KPI Dashboard
+## Future Work
 
----
+- Customer segmentation with a documented methodology.
+- Predictive purchase modeling with a defined target and baseline.
+- Sales forecasting if date-grained data is available.
+- A reproducible preprocessing workflow if the original transformation logic can be recovered.
 
-## 👨‍💻 Author
+## Author
 
-**Ahlad Novuduri**
-
-Data Scientist | Power BI | Python | SQL
-
-GitHub: https://github.com/SatyaNovuduri
+**Ahlad Novuduri** · [GitHub](https://github.com/AhladNovuduri)
