@@ -14,12 +14,12 @@ The repository contains a Power BI report and a processed CSV dataset. The exist
 |---|---|
 | `reports/Black Friday.pbix` | Power BI report |
 | `data/processed/black_friday_cleaned.csv` | Processed transaction dataset |
-| `requirements.txt` | Existing Python dependency list |
+| `requirements.txt` | Existing file; the repository contains no Python source that uses these dependencies |
 | `LICENSE` | Copyright notice; not a complete license grant |
 
 ## Dataset
 
-The original project README reports approximately 783,000 records and 12 features. These figures have not been independently recomputed in this documentation update. Confirm the dataset source, license, exact row count, schema, and transformation steps before treating them as verified.
+The processed CSV contains 783,667 rows and 12 columns in the inspected copy. The source, license, and transformation steps are not documented in the repository. The Power BI report and processed file are available, but the preprocessing cannot be reproduced from the current repository contents.
 
 Document the following to improve transparency:
 
@@ -79,3 +79,4 @@ Add screenshots from the actual report after validating the pages and visuals.
 ## Author
 
 **Ahlad Novuduri** · [GitHub](https://github.com/AhladNovuduri)
+
